@@ -62,6 +62,6 @@ myArray.printArray();
 
 ### Author Information:
 - **Author**: j2doll  
-- **GitHub**: [j2doll](https://github.com/j2doll), [JayTwo](https://github.com/JayTwo)  
+- **GitHub**: https://github.com/JayTwoLab/DynamicQStringArray
 - **License**: MIT License  
 
