@@ -57,6 +57,7 @@ myArray.resize(3, 3);
 myArray.setValue(0, 0, "Hello");
 myArray.setValue(1, 1, "World");
 qDebug() << myArray.getValue(0, 0); // "Hello"
+qDebug() << myArray.getValue(1, 2); // "" // It is empty.
 myArray.printArray();
 ```
 
