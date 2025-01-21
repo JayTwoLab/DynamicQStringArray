@@ -62,6 +62,6 @@ myArray.printArray();
 
 ### 작성자 정보:
 - **작성자**: j2doll  
-- **GitHub**: [j2doll](https://github.com/j2doll), [JayTwo](https://github.com/JayTwo)  
+- **GitHub**: https://github.com/JayTwoLab/DynamicQStringArray
 - **라이선스**: MIT License  
 
