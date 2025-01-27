@@ -53,11 +53,15 @@ This class provides functionality for dynamically managing a 2D array with `QStr
 This class allows managing a 2D array as follows:
 ```cpp
 j2::TwoDimensions::DynamicQStringArray myArray;
-myArray.resize(3, 3); // Create (3 rows x 3 cols) String Array 
+
+myArray.resize(3, 3); // Create (3 rows x 3 cols) String Array. Default string is empty.
+
 myArray.setValue(0, 0, "Hello");
 myArray.setValue(1, 1, "World");
+
 qDebug() << myArray.getValue(0, 0); // "Hello"
 qDebug() << myArray.getValue(1, 2); // "" // It is empty.
+
 myArray.printArray();
 ```
 
