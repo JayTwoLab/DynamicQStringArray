@@ -53,11 +53,15 @@
 이 클래스를 사용하면 2차원 배열을 다음과 같이 관리할 수 있습니다.
 ```cpp
 j2::TwoDimensions::DynamicQStringArray myArray;
-myArray.resize(3, 3); // (3 rows x 3 cols) 문자열 배열 생성
+
+myArray.resize(3, 3); // (3 rows x 3 cols) 문자열 배열 생성. 기본 문자열은 비어 있음.
+
 myArray.setValue(0, 0, "Hello");
 myArray.setValue(1, 1, "World");
+
 qDebug() << myArray.getValue(0, 0); // "Hello"
 qDebug() << myArray.getValue(1, 2); // "" // It is empty.
+
 myArray.printArray();
 ```
 
